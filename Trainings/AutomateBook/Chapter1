@@ -1,0 +1,12 @@
+import re
+
+#!/usr/bin/env python3
+
+#find phone number in string
+#pattern is 415-555-4242
+
+phoneNumberRegex=re.compile(r'\d\d\d-\d\d\d-\d\d-\d\d')
+mo = phoneNumberRegex.search('My number is 650-250-90-90')
+print('Phone Number Found' + mo.group())
+
+
