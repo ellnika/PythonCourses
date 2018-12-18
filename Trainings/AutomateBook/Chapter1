@@ -1,7 +1,6 @@
 import re
 
 #!/usr/bin/env python3
-
 #find phone number in string
 #pattern is 415-555-4242
 
