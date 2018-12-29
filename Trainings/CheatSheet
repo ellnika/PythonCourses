@@ -19,3 +19,30 @@ Because strings are lists, you can do to strings everything that you do to lists
 
 Iterating through list
 
+Loops
+
+1. Loops and keep track of how many times - counter
+First set counter variable to zero (how many times we have seen it)
+
+Each time through the loop we will add +1
+
+Summing in loop
+
+Filtering in the loop - if
+Bool - whether sth was found or no
+found = False and can be later changed to found = True
+
+#Finding largest value
+
+None type - one thing  none, lack of a value
+
+before loop starts the smallest number we have seen is none
+
+start with smallest = None (so called flag value)
+then in the loop
+for value in [  ]
+if smallest = None
+smallest = value
+elif smallest < value
+smallest = value
+
